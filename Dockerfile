@@ -3,4 +3,4 @@ COPY . /app/
 WORKDIR /app
 RUN npm install
 CMD ["node","server.js"]
-EXPOSE 8080
+EXPOSE 8081
