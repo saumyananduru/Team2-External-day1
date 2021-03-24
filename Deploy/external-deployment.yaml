@@ -21,7 +21,7 @@ spec:
         imagePullPolicy: "Always"
         env:
         - name: SERVER
-          value: "http://34.70.68.3"          
+          value: "http://events-internal:80"          
         resources:
           requests:
             memory: "128Mi"
